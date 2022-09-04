@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    /* height: 100%; */
+    width: 100%;
+}
+video{
+    border-radius: 5px;
+    width: 100%!important;
+}
+
+.wrapper{
+    height: 100%;
+    /* background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.8)), url(../admin/images/61testtest.png); */
+    background-color: #FFEF82;
+}
+.wrapper #preview{
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #EFD345;
+    /* margin-bottom: 100px!important; */
+}
+.navbar-brand{
+    font-size: 25px!important;
+    color: #fff!important;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.navbar .nav-item .nav-link{
+    color: #fff!important;
+    font-weight: 700;
+}
+.input-group-text{
+    background-color: #BABD42!important;
+    color: #fff
+}
+.title-page{
+    color: #BABD42;
+    font-weight: 900;
+}
+.modal-dialog{
+    background-color: #FFEF82;
+}
+#success_modal .modal-body h1{
+    color: #BABD42;
+    font-weight: 900;
+}
+#submit_data{
+    background-color: #BABD42;
+    padding: 10px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    transition: all 0.3s ease-in;
+}
+.clock_container{
+    padding-top: 15px;
+}
+#clock_lg_screen{
+    display: none;
+}
+#clock_sm_screen{
+    display: inline;
+}
+.action_btn{
+    background-color: #BABD42;
+    font-weight: 500;
+}
+#submit_data:hover, .action_btn:hover{
+    background-color: #82954B;
+}
+.toggle-icon{
+    color: #fff;
+    
+}
+
+footer{
+    background-color: #EFD345;
+    text-align: center;
+    font-weight: 500;
+    color: #82954B;
+}
+@media screen and (min-width: 992px) {
+    .login-form{
+        padding-top: 25px
+    }
+    .login-form form{
+        padding: 50px;
+    }
+    .clock_container{
+        padding-top: 50px;
+    }
+    #clock_lg_screen{
+        display: inline;
+        text-align: center;
+        margin: auto;
+    }
+    #clock_sm_screen{
+        display: none;
+    }
+}
+@media screen and (max-width:991px) {
+    .navbar-brand{
+        font-size: 18px!important;
+    }
+}

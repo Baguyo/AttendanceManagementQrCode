@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.primary-color{
+    color:#82954B;
+}
+.wrapper{
+    display: flex;
+}
+.side-nav{   
+    width: 225px;
+    background-color: #FFEF82;
+    padding-top: 10px;
+    border-right: 2px solid #BABD42;
+}
+.user-image-container{
+    border-bottom: 2px solid #BABD42;
+}
+ #user_image{
+    border-radius: 10px;
+    height: 170px;
+    width: 100%;
+    
+    padding-bottom: 5px;
+}
+.side-nav ul{
+    padding: 0px 10px;
+    height: 100vh;
+    text-align: center;
+}
+.side-nav .nav-item .nav-link{
+    border-bottom: 2px solid #BABD42;
+    color: #82954B;
+    font-weight: 600;
+    padding: 10px;
+}
+.side-nav .nav-item .nav-link:hover{
+    background-color: #EFD345;
+}
+.page-wrapper{
+    padding: 15px;
+    width: 100%;
+    background-color: #FFEF82;
+}
+.toggle-icon{
+    background-color: #BABD42;
+    color: #fff;
+}
+.page-header{
+    padding: 5px 0;
+    border-bottom: 2px solid #BABD42;
+}
+.page-header h1, .title-page{
+    color:#82954B;
+    font-weight: 700;
+}
+.active-sidebar{
+    margin-left: -225px;
+}
+.filter_date{
+    background-color: #82954B;
+    color: #fff;
+    font-weight: 600;
+}
+.export_btn, .update_user_btn, .attendance_action_btn, .session_message, .report_btn, .add_user_btn, .add_appeal_btn, .add_deduction_btn{
+    background-color: #82954B;
+    color: #fff;
+    font-weight: 600;
+}
+.attendance_action_btn:hover, .report_btn:hover, .export_btn:hover, .add_user_btn:hover, .add_appeal_btn:hover, .delete_appeal_btn:hover, .add_deduction_btn:hover{
+    background-color: #BABD42;
+    color: #fff;
+}
+.report_sign{
+    /* color:#82954B; */
+    font-weight: 700;
+}
+.page-item .page-link{
+    color: #fff!important;
+    background-color: #BABD42;
+    font-size: 16px;
+}
+.page-item .page-link.active{
+    background-color: #82954B;
+}
+#profile-qrcode-btn{
+    background-color: #82954B;
+    color: white!important;
+    text-decoration: none;
+}
+
+.modal-body .delete-message{
+    color: #82954B;
+}
+.delete-modal-btn{
+    background-color: #82954B;
+    color: #fff;
+}
+
+
+
+.edit-attendance-header{
+    border-bottom: 2px solid #BABD42;
+    color: #82954B;
+}
+
+.delete_appeal_btn{
+    background-color: #82954B;
+    color: #fff;
+    font-weight: 700;
+}
